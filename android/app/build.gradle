@@ -6,9 +6,9 @@ plugins {
 }
 
 android {
-    namespace = "com.example.drafter"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    namespace "com.example.drafter"
+    compileSdk flutter.compileSdkVersion
+    ndkVersion "27.2.12479018"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
